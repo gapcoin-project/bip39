@@ -1808,6 +1808,43 @@ libs.bitcoin.networks.sugarchaintestnet = {
     wif: 0xef
 };
 
+libs.bitcoin.networks.gapcoin = {
+  messagePrefix: 'Gapcoin Signed Message:\n',
+  bech32: 'gp',
+  bip32: {
+      public: 0x033C0DF8,
+      private: 0x033C0E22
+  },
+  pubKeyHash: 0x26,
+  scriptHash: 0x05,
+  wif: 0x61
+};
+
+libs.bitcoin.networks.gapcointestnet = {
+  messagePrefix: 'Gapcoin Signed Message:\n',
+  bech32: 'gpt',
+  bip32: {
+      public: 0x033C07A4,
+      private: 0x033C07CE
+  },
+  pubKeyHash: 0x6f,
+  scriptHash: 0xc4,
+  wif: 0xef
+};
+
+libs.bitcoin.networks.gapcoinregtest = {
+  messagePrefix: 'Gapcoin Signed Message:\n',
+  bech32: 'gprt',
+  bip32: {
+    public: 0x033C07A4,
+    private: 0x033C07CE
+  },
+  pubKeyHash: 0x26,
+  scriptHash: 0x05,
+  wif: 0x61
+};
+
+
 // https://github.com/libs.bitcoinjs-lib/blob/3f6f5ef97a1ee1b8337865209282c0095e22b2e7/src/networks.js
 libs.bitcoin.networks.regtest = {
   messagePrefix: '\x18Bitcoin Signed Message:\n',

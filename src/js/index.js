@@ -2644,6 +2644,27 @@
             },
         },
         {
+            name: "GAP - Gapcoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.gapcoin;
+                setHdCoin(15);
+            },
+        },
+        {
+            name: "GAP - Gapcoin Testnet",
+            onSelect: function() {
+                network = libs.bitcoin.networks.gapcointestnet;
+                setHdCoin(1);
+            },
+        },
+        {
+            name: "GAP - Gapcoin RegTest",
+            onSelect: function() {
+                network = libs.bitcoin.networks.gapcoinregtest;
+                setHdCoin(1);
+            },
+        },
+        {
             name: "GBX - Gobyte",
             onSelect: function() {
                 network = libs.bitcoin.networks.gobyte;

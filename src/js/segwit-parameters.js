@@ -765,4 +765,168 @@ libs.bitcoin.networks.sugarchaintestnet.p2wpkhInP2sh = {
 	wif: 0xef
 };
 
+// p2wpkh
+
+libs.bitcoin.networks.gapcoin.p2wpkh = {
+    baseNetwork: "gapcoin",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gp',
+    bip32: {
+      public: 0x033C1123,
+      private: 0x033C114C
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+libs.bitcoin.networks.gapcointestnet.p2wpkh = {
+    baseNetwork: "gapcointestnet",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gpt',
+    bip32: {
+      public: 0x033C0ACE,
+      private: 0x033C0AF8
+    },
+    pubKeyHash: 0x6f,
+    scriptHash: 0xc4,
+    wif: 0xef
+};
+
+libs.bitcoin.networks.gapcoinregtest.p2wpkh = {
+    baseNetwork: "gapcoinregtest",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gprt',
+    bip32: {
+      public: 0x033C1123,
+      private: 0x033C114C
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+// p2wpkh in p2sh
+
+libs.bitcoin.networks.gapcoin.p2wpkhInP2sh = {
+    baseNetwork: "gapcoin",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gp',
+    bip32: {
+        public: 0x033C0F8D,
+        private: 0x033C0FB7
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+libs.bitcoin.networks.gapcointestnet.p2wpkhInP2sh = {
+    baseNetwork: "gapcointestnet",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gpt',
+    bip32: {
+        public: 0x033C0939,
+        private: 0x033C0963
+    },
+    pubKeyHash: 0x6f,
+    scriptHash: 0xc4,
+    wif: 0xef
+};
+
+libs.bitcoin.networks.gapcoinregtest.p2wpkhInP2sh = {
+    baseNetwork: "gapcoinregtest",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gprt',
+    bip32: {
+        public: 0x033C0F8D,
+        private: 0x033C0FB7
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+// p2wsh
+
+libs.bitcoin.networks.gapcoin.p2wsh = {
+    baseNetwork: "gapcoin",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gp',
+    bip32: {
+        public: 0x033BE994,
+        private: 0x033BE9BE
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+libs.bitcoin.networks.gapcointestnet.p2wsh = {
+    baseNetwork: "gapcointestnet",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gpt',
+    bip32: {
+        public: 0x033BE340,
+        private: 0x033BE36A
+    },
+    pubKeyHash: 0x6f,
+    scriptHash: 0xc4,
+    wif: 0xef
+};
+
+libs.bitcoin.networks.gapcoinregtest.p2wsh = {
+    baseNetwork: "gapcoinregtest",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gprt',
+    bip32: {
+        public: 0x033BE994,
+        private: 0x033BE9BE
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+// p2wsh in p2sh
+
+libs.bitcoin.networks.gapcoin.p2wshInP2sh = {
+    baseNetwork: "gapcoin",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gp',
+    bip32: {
+        public: 0x033BE7FF,
+        private: 0x033BE829
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
+libs.bitcoin.networks.gapcointestnet.p2wshInP2sh = {
+    baseNetwork: "gapcointestnet",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gpt',
+    bip32: {
+        public: 0x033BE1AB,
+        private: 0x033BE1D5
+    },
+    pubKeyHash: 0x6f,
+    scriptHash: 0xc4,
+    wif: 0xef
+};
+
+libs.bitcoin.networks.gapcoinregtest.p2wshInP2sh = {
+    baseNetwork: "gapcoinregtest",
+    messagePrefix: 'Gapcoin Signed Message:\n',
+    bech32: 'gprt',
+    bip32: {
+        public: 0x033BE7FF,
+        private: 0x033BE829
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0x61
+};
+
 })();
